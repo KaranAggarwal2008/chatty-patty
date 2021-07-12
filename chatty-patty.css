@@ -1,0 +1,191 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+}
+
+.header {
+	color: white;
+	font-family: 'Yeon Sung';
+	font-size: 45px;
+	letter-spacing: 10px;
+	margin-top: 80px;
+}
+
+.header img {
+	width: 80px;
+	margin-left: -15px;
+}
+
+.login_div {
+	background: rgba(255, 255, 255, 0.8);
+	float: none;
+	border-radius: 15px;
+}
+
+.logo {
+	width: 80px;
+	margin-top: 30px;
+	border-radius: 40px;
+}
+
+#login_button {
+	width: 80%;
+	border-radius: 15px;
+}
+
+.room_name {
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout {
+	font-size: 20px;
+	float: right;
+}
+
+
+#output {
+	padding: 10px;
+	width: 80%;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 15px;
+}
+
+.input_div_room_page {
+	width: 80%;
+}
+
+.input_div label {
+	color: white;
+	font-size: 20px;
+}
+
+
+.input_div_message_page {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.input_div_message_page label {
+	color: black;
+}
+
+.input_div_message_page #msg {
+	width: 80%;
+}
+
+.input_div_message_page button {
+	margin-top: 15px;
+	width: 50%;
+}
+
+.color_white {
+	color: white
+}
+
+.user_tick {
+	width: 20px;
+}
+
+.message_h4 {
+	padding-left: 5px;
+	color: grey;
+}h1 {
+    color: brown;
+    margin-left: 30px;
+}
+
+.header * {
+    border: solid;
+} 
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #FFF5C3;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+} 
+a:hover{
+    color: wheat;
+}
+.appoint{
+    position: absolute;
+}
+.feedback{
+    position: absolute;
+    left: 10%
+}
+.new-1{
+    position: center;
+    text-decoration-color: red;
+    text-emphasis-color: black;
+    background-color: #5cFFC3;
+}
