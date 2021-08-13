@@ -1,12 +1,13 @@
 //YOUR FIRE BASE LINKS
-var firebaseConfig = {
-  apiKey: "AIzaSyBX1BKm93sTOiBWOHr5QuUHVgcZ0NOTUkA",
-  authDomain: "class-test-f472e.firebaseapp.com",
-  databaseURL: "https://class-test-f472e-default-rtdb.firebaseio.com",
-  projectId: "class-test-f472e",
-  storageBucket: "class-test-f472e.appspot.com",
-  messagingSenderId: "259518052467",
-  appId: "1:259518052467:web:e87b87c127d1f70bc95206"
+const firebaseConfig = {
+  apiKey: "AIzaSyASYHqPemYyKdCQrAycmjj7y53i_CvoFdQ",
+  authDomain: "chatty-patty-app.firebaseapp.com",
+  databaseURL: "https://chatty-patty-app-default-rtdb.firebaseio.com",
+  projectId: "chatty-patty-app",
+  storageBucket: "chatty-patty-app.appspot.com",
+  messagingSenderId: "250076698575",
+  appId: "1:250076698575:web:07c10e60958e158a5864ba",
+  measurementId: "G-2YYCXQ9ZX7"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
