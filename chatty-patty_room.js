@@ -1,13 +1,15 @@
 
 //ADD YOUR FIREBASE LINKS
-var firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyASYHqPemYyKdCQrAycmjj7y53i_CvoFdQ",
   authDomain: "chatty-patty-app.firebaseapp.com",
   databaseURL: "https://chatty-patty-app-default-rtdb.firebaseio.com",
   projectId: "chatty-patty-app",
   storageBucket: "chatty-patty-app.appspot.com",
   messagingSenderId: "250076698575",
-  appId: "1:250076698575:web:07c10e60958e158a5864ba"}
+  appId: "1:250076698575:web:07c10e60958e158a5864ba",
+  measurementId: "G-2YYCXQ9ZX7"
+};
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
